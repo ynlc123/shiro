@@ -87,4 +87,5 @@ public class Quickstart {
 		
 		System.out.println(session.getAttribute("someKey"));
 	}
+	//≤‚ ‘
 }
