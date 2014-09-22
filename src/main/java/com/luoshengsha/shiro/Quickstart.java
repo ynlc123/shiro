@@ -17,7 +17,7 @@ import org.slf4j.LoggerFactory;
 public class Quickstart {
 	private static final transient Logger log = LoggerFactory.getLogger(Quickstart.class);
 	
-	public static void main(String[] args) { //zhuyi
+	public static void main(String[] args) { //zhuyirtern
 		
 		Factory<SecurityManager> factory = new IniSecurityManagerFactory("classpath:shiro.ini");
         SecurityManager securityManager = factory.getInstance();
